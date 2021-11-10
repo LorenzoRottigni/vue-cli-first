@@ -7,20 +7,17 @@
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <p class="lead">
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+            </p>
         </div>
     </div>
 </template>
 <script>
-export default {
-  name: 'Title',
-  props: {
-    msg: String
-  }
-}
+    export default {
+    name: 'Title',
+    props: {
+        msg: String
+    }
+    }
 </script>
 <style>
-    h1{
-        color: blue
-    }
 </style>
